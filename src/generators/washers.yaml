@@ -1,0 +1,70 @@
+options:
+  clear_output_dir: true
+
+washers:
+  - name: metric-quarter-inch-drive
+    params:
+      adjust_for_socket: true
+      edge_thickness: 2.5
+      height: 36.95
+      hole_diameter: 5.8
+      letter_offset: 4
+      min_width: 20
+      thickness: 2.5
+      wall_thickness: 5
+      engrave_depth: 1.5
+    texts:
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+  - name: metric-three-eights-inch-drive
+    params:
+      adjust_for_socket: true
+      edge_thickness: 2.5
+      height: 36.95
+      hole_diameter: 11.2
+      letter_offset: 4
+      min_width: 20
+      thickness: 2.5
+      wall_thickness: 5
+      engrave_depth: 1.5
+    texts:
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+  - name: metric-half-inch-drive
+    params:
+      adjust_for_socket: true
+      edge_thickness: 2.5
+      height: 36.95
+      hole_diameter: 11.2
+      letter_offset: 4
+      min_width: 20
+      thickness: 2.5
+      wall_thickness: 5
+      engrave_depth: 1.5
+    texts:
+      - "10"
+      - "11"
+      - "12"
+      - "13"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
