@@ -101,6 +101,7 @@ def generate_openscad_code(
         module text1() {{
             translate([(width/2), letter_offset, (thickness*2)])
             linear_extrude(height = engrave_depth)
+            mirror(v=[0,1,0])
             text(engrave_text, valign="center", halign="center", size=8, font = "Calibri:style=Bold");
         }}
 
@@ -108,6 +109,7 @@ def generate_openscad_code(
             translate([(width/2), height-letter_offset, (thickness*2)])
             rotate([0, 0, 180])
             linear_extrude(height = engrave_depth)
+            mirror(v=[0,1,0])
             text(engrave_text, valign="center", halign="center", size=8, font = "Calibri:style=Bold");
         }}
 
